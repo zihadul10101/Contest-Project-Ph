@@ -1,0 +1,108 @@
+/* dark-mode  start*/
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.dark-mode section {
+    background-color: black;
+    color: white;
+  }
+.dark-mode ul li {
+    background-color: black;
+    color: white;
+  }
+.dark-mode .dropdown a {
+    background-color: black;
+    color: white;
+  }
+
+  /* hero section start*/
+  .dark-mode .inner-contant  h1{
+    background-color: black;
+    color: white;
+  }
+  .dark-mode .inner-contant  h2{
+    background-color: black;
+    color: white;
+  }
+   /* hero section end */
+   /* <!-- featured-services section start --> */
+.dark-mode .featured-box p{
+    background-color: black;
+    color: white;
+  }
+.dark-mode .featured-box h4{
+    background-color: black;
+    color: white;
+  }
+  /* <!-- featured-services section end --> */
+
+  /* <!-- about section start --> */
+  .dark-mode .about-content h3{
+    background-color: black;
+    color: white;
+  }
+  .dark-mode .about-content p{
+    background-color: black;
+    color: white;
+  }
+  /* <!-- about section end --> */
+  /* <!-- service section start --> */
+.dark-mode .services-box{
+    background-color: black;
+    color: white; 
+    border: 1px solid #f9f9fa;
+}
+
+  /* <!-- service section end --> */
+
+  /* <!-- testimonial section start--> */
+  .dark-mode .testimonial-box p{
+    background-color: black;
+    color: white;
+    border: 1px solid #f9f9fa; 
+  }
+  /* <!-- testimonial section end--> */
+
+  /* <!-- team section start--> */
+  .dark-mode .social {
+    background-color: black;
+    color: white;
+  }
+  /* <!-- team section end--> */
+  /* <!-- contact section start--> */
+  .dark-mode .contact-box {
+    background-color: black;
+    color: white;
+  }
+  .dark-mode .contact-box .info-contant h4{
+    background-color: black;
+    color: white;
+  }
+  .dark-mode .contact-box label {
+    background-color: black;
+    color: white;
+  }
+  /* <!-- contact section end--> */
+
+  /* <!-- eno-Subscribe section start--> */
+  .dark-mode .eno-Subscribe-box h3{
+    background-color: black;
+    color: white;
+  }
+  /* <!-- eno-Subscribe section end--> */
+
+  /* <!-- footer section start--> */
+ .dark-mode .footer{
+    background-color: black;
+    color: white;
+  }
+ .dark-mode .footer-box{
+    background-color: black;
+    color: white;
+  }
+  /* <!-- footer section end--> */
+
+
+  /* dark-mode  start*/
+ 

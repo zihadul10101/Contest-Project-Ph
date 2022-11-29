@@ -1,0 +1,162 @@
+@media (max-width: 768px) {
+    .container {
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+
+    /* header start */
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar .nav-img {
+        display: block;
+        height: 45px;
+        position: absolute;
+        right: 23px;
+    }
+
+    .responsive ul   {
+       
+        display: block;
+        top: 60px;
+        left: -304px;
+       
+    }
+    .responsive li   {
+        padding: 15px 5px;
+       
+    }
+    .responsive ul li:hover {
+        color: #16df7e; 
+       
+    }
+    .responsive ul .dropdown {
+       
+        justify-content: start;
+    }
+    .responsive ul .dropdown .dropdown-content {
+        top: 238px;
+        left: 217px;
+       
+    }
+    .responsive  ul .get-started {
+        padding: 10px 25px;
+        margin-left: 14px;
+    }
+    .logo {
+        text-align: start;
+        font-size: 35px;
+    }
+
+    /* header end */
+    /* hero section start */
+    /* 2 box can 1 box */
+    .hero {
+        flex-direction: column-reverse;
+        gap: 2vh;
+    }
+
+    /* hero section end */
+    /* featured-services section start */
+    .featured-box {
+        flex-basis: 45%;
+    }
+
+    .featured-services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* featured-services section end */
+    /* about section start */
+    .about {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    /* counter section start */
+    .counters-box {
+        flex-basis: 46%;
+    }
+
+    /* counter section end */
+    /* services section start */
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services-box {
+        flex-basis: 45%;
+    }
+
+    /* services section end */
+    /* testimonal  section start */
+    .testimonial-box{
+        flex-basis: 45%; 
+    }
+    .testimonial{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .quote-icon-right {
+        position: absolute;
+        z-index: 3;
+        top: 127px;
+        right: 4px;
+        height: 35px;
+    }
+    /* testimonal  section end */
+    /* team  section start */
+.team-box{
+    flex-basis: 45%;  
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    /* team  section end */
+    /* contact  section start */
+    .contact-box{ 
+        flex-basis: 100%;   
+    }
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* contact  section end */
+    /* footer  section start */
+    .footer{ 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-box{ 
+        flex-basis: 100%;
+    }
+    /* footer  section end */
+    /* 3 box can 2 box */
+
+
+    .box-13,
+    .box-14,
+    .box-15
+    {
+        flex-basis: 45%;
+
+    }
+    /* 2 box can 1 box */
+    .hero,
+    .bolck-3,
+    .counters {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-6,
+    .box-7 {
+        flex-basis: 100%;
+    }
+
+}
