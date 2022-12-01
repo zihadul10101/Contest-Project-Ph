@@ -13,12 +13,13 @@
 </head>
 
 <body>
+    <div id="loader"></div>
     <div class="container">
         <!-- header section start -->
-        <div class="header"  id="myHeader">
+        <div class="header" id="myHeader">
             <div class="logo">Black Hole</div>
             <div class="navbar" id="myTopnav">
-                <img  onclick="headerRes()" class="nav-img" src="./img/header/menu.png" alt="Placeholder" />
+                <img onclick="headerRes()" class="nav-img" src="./img/header/menu.png" alt="Placeholder" />
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -68,7 +69,8 @@
             <div class="hero-content">
                 <div class="inner-contant">
                     <h1>Effortlessly create beautiful emails</h1>
-                    <h2>Create and personalize your email campaigns with our powerful, intuitive drag & drop email editor.</h2>
+                    <h2>Create and personalize your email campaigns with our powerful, intuitive drag & drop email
+                        editor.</h2>
                     <div class="hero-btn">
                         <div class="hero-btn-gt">
                             Get Started
@@ -119,7 +121,12 @@
             </div>
             <div class="about-content">
                 <h3>Design and host your website for FREE!</h3>
-                <p>If you're looking for a do it yourself website builder, Sectorlink's free website builder and hosting is the answer. Choose from a wide variety of templates or build your website from scratch. Drag and drop web images, text, and other elements on to the web pages you create. You do not need a degree in web design to build a professional-looking website. Upgrade your plan at any time when you are ready for more features like e-mail addresses for your domain, contact e-mail forms, e-commerce, and over 190 professional templates.</p>
+                <p>If you're looking for a do it yourself website builder, Sectorlink's free website builder and hosting
+                    is the answer. Choose from a wide variety of templates or build your website from scratch. Drag and
+                    drop web images, text, and other elements on to the web pages you create. You do not need a degree
+                    in web design to build a professional-looking website. Upgrade your plan at any time when you are
+                    ready for more features like e-mail addresses for your domain, contact e-mail forms, e-commerce, and
+                    over 190 professional templates.</p>
                 <ul>
                     <li>
                         <img src="././img/about/right-arrow.png" alt="Placeholder" />
@@ -176,7 +183,8 @@
                 <div class="services-box">
                     <img src="././img/service/earth.png" alt="Placeholder">
                     <h4>24/7 Technical Support</h4>
-                    <p>Need help? We are here 24 hours a day. Click on the button below to open a ticket with a specialist.</p>
+                    <p>Need help? We are here 24 hours a day. Click on the button below to open a ticket with a
+                        specialist.</p>
                 </div>
                 <div class="services-box">
                     <img src="././img/service/ball.png" alt="Placeholder">
@@ -572,7 +580,25 @@
             } else {
                 x.className = "navbar";
             }
-        } 
+        }
+
+        // loder 
+
+      
+        
+      document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                  "body").style.visibility = "hidden";
+                document.querySelector(
+                  "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                  "#loader").style.display = "none";
+                document.querySelector(
+                  "body").style.visibility = "visible";
+            }
+        };
     </script>
 </body>
 
