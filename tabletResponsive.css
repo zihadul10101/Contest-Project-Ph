@@ -20,12 +20,13 @@
        
         display: block;
         top: 60px;
-        left: -304px;
-       
+        left: -321px; 
     }
-    .responsive li   {
+
+    .responsive li  {
         padding: 15px 5px;
-       
+        text-align: start;
+        font-size: 30px;
     }
     .responsive ul li:hover {
         color: #16df7e; 
@@ -41,7 +42,7 @@
        
     }
     .responsive  ul .get-started {
-        padding: 10px 25px;
+        padding: 25px 25px;
         margin-left: 14px;
     }
     .logo {

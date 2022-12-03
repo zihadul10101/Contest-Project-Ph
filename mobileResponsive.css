@@ -3,6 +3,7 @@
         padding-left: 1vh;
         padding-right: 1vh;
     }
+ 
     .hero,
     .featured-services,
     .about,
@@ -14,5 +15,9 @@
     .footer{
 
         flex-direction: column;
+    }
+    .logo {
+        text-align: center;
+        font-size: 30px;
     }
 }

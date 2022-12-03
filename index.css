@@ -31,6 +31,7 @@ body {
     padding-right: 10vh;
 
 }
+
 /* spinner start */
 #loader{
 	position: fixed;
@@ -325,7 +326,8 @@ body {
 }
 
 .about-content {
-
+   
+    padding: 10px;
     flex-basis: 50%;
 }
 
@@ -348,6 +350,7 @@ body {
 
 .about-content h3 {
     font-weight: 700;
+    text-align: start;
     font-size: 32px;
     color: #5f687b;
     margin-bottom: 1rem;
@@ -357,9 +360,8 @@ body {
 .about-content p {
     font-family: "Raleway", sans-serif;
     color: #5f687b;
-    transition: 0.3s;
     font-size: 20px;
-    margin: 15px;
+    text-align: start;
 }
 
 /* about section end */
@@ -465,7 +467,12 @@ section {
     background: #fff;
     box-sizing: border-box;
 }
+.services-box:hover {
+    background: #dfb016;
+    transform: scale(1.5); 
 
+    color: #fff;
+  }
 .services-box img {
     height: 46px;
 }
