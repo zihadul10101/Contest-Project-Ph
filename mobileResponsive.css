@@ -1,14 +1,26 @@
 @media (max-width: 480px) {
-    .container {
-        padding-left: 1vh;
-        padding-right: 1vh;
-    }
+  
     
     .responsives ul   {
-       
-        margin-left: -202px;
-        border: 2px solid red;
+        display:inline;
+        width: 100%;
+        margin-left: 208px;
+        margin-top: 60px;
+        
     }
+    .responsives ul  li {
+       text-align: center;
+    }
+    .responsives .dropdown{
+     
+       display: flex;
+       justify-content:end;
+       align-items: center;
+     
+    }
+   
+  
+
     .hero,
     .featured-services,
     .about,

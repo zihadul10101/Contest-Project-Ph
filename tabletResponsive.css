@@ -16,35 +16,41 @@
         right: 23px;
     }
 
-    .responsives ul   {
-       
+    .responsives ul {
+
         display: block;
         top: 60px;
-        left: -321px; 
+        left: -321px;
     }
 
-    .responsives li  {
+    .responsives ul li {
+        text-align: center;
         padding: 15px 5px;
         text-align: start;
         font-size: 30px;
     }
+
     .responsives ul li:hover {
-        color: #16df7e; 
-       
+        color: #16df7e;
+
     }
+
     .responsives ul .dropdown {
-       
+
         justify-content: start;
     }
+
     .responsives ul .dropdown .dropdown-content {
         top: 238px;
         left: 217px;
-       
+
     }
-    .responsives  ul .get-started {
+
+    .responsives ul .get-started {
         padding: 25px 25px;
         margin-left: 14px;
     }
+
     .logo {
         text-align: start;
         font-size: 35px;
@@ -69,16 +75,42 @@
         flex-wrap: wrap;
     }
 
+    .featured-box h4 {
+        font-size: 25px;
+
+    }
+
+    .featured-box p {
+        font-size: 20px;
+    }
+
     /* featured-services section end */
     /* about section start */
     .about {
         flex-direction: column;
         gap: 2vh;
     }
+  
 
+    .about-content h3 {
+        font-size: 30px;
+
+    }
+
+    .about-content p {
+        font-size: 20px;
+
+    }
+    /* about section end */
     /* counter section start */
     .counters-box {
         flex-basis: 46%;
+    }
+    .counters-box p{
+        font-size: 30px;
+    }
+    .counters-box span{
+        font-size: 90px;
     }
 
     /* counter section end */
@@ -91,16 +123,30 @@
     .services-box {
         flex-basis: 45%;
     }
+    .services-box h4{
+        font-size: 30px;
+    }
+    .services-box p{
+        font-size: 25px;
+    }
 
     /* services section end */
     /* testimonal  section start */
-    .testimonial-box{
-        flex-basis: 45%; 
+    .testimonial-box {
+        flex-basis: 45%;
     }
-    .testimonial{
+    .testimonial-box p{
+        font-size: 25px;
+    }
+    .testimonial-box h4{
+        font-size: 25px;
+    }
+
+    .testimonial {
         display: flex;
         flex-wrap: wrap;
     }
+
     .quote-icon-right {
         position: absolute;
         z-index: 3;
@@ -108,45 +154,56 @@
         right: 4px;
         height: 35px;
     }
+
     /* testimonal  section end */
     /* team  section start */
-.team-box{
-    flex-basis: 45%;  
-}
-.team {
-    display: flex;
-    flex-wrap: wrap;
-}
+    .team-box {
+        flex-basis: 45%;
+    }
+
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     /* team  section end */
     /* contact  section start */
-    .contact-box{ 
-        flex-basis: 100%;   
-    }
-    .contact{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /* contact  section end */
-    /* footer  section start */
-    .footer{ 
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .footer-box{ 
+    .contact-box {
         flex-basis: 100%;
     }
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* contact  section end */
+    /* footer  section start */
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-box {
+        flex-basis: 100%;
+    }
+
     /* footer  section end */
+    .eno-Subscribe-box{
+        padding: 50px;
+        font-size:30px;
+    }
+  
     /* 3 box can 2 box */
 
 
     .box-13,
     .box-14,
-    .box-15
-    {
+    .box-15 {
         flex-basis: 45%;
 
     }
+
     /* 2 box can 1 box */
     .hero,
     .bolck-3,
