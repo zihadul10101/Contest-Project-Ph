@@ -16,32 +16,32 @@
         right: 23px;
     }
 
-    .responsive ul   {
+    .responsives ul   {
        
         display: block;
         top: 60px;
         left: -321px; 
     }
 
-    .responsive li  {
+    .responsives li  {
         padding: 15px 5px;
         text-align: start;
         font-size: 30px;
     }
-    .responsive ul li:hover {
+    .responsives ul li:hover {
         color: #16df7e; 
        
     }
-    .responsive ul .dropdown {
+    .responsives ul .dropdown {
        
         justify-content: start;
     }
-    .responsive ul .dropdown .dropdown-content {
+    .responsives ul .dropdown .dropdown-content {
         top: 238px;
         left: 217px;
        
     }
-    .responsive  ul .get-started {
+    .responsives  ul .get-started {
         padding: 25px 25px;
         margin-left: 14px;
     }

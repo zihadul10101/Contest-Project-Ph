@@ -466,13 +466,19 @@ section {
     transition: all ease-in-out 0.3s;
     background: #fff;
     box-sizing: border-box;
+    
 }
 .services-box:hover {
     background: #dfb016;
     transform: scale(1.5); 
-
+    border-radius: 10px;
     color: #fff;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    
   }
+  
 .services-box img {
     height: 46px;
 }

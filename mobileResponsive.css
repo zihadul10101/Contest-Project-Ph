@@ -3,7 +3,12 @@
         padding-left: 1vh;
         padding-right: 1vh;
     }
- 
+    
+    .responsives ul   {
+       
+        margin-left: -202px;
+        border: 2px solid red;
+    }
     .hero,
     .featured-services,
     .about,

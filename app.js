@@ -47,7 +47,7 @@ function headerRes() {
     var x = document.getElementById("myTopnav");
     console.log(x);
     if (x.className === "navbar") {
-        x.className += " responsive";
+        x.className += " responsives";
     } else {
         x.className = "navbar";
     }
