@@ -57,17 +57,17 @@ function headerRes() {
 
 
 
-document.onreadystatechange = function() {
+document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector(
-          "body").style.visibility = "hidden";
+            "body").style.visibility = "hidden";
         document.querySelector(
-          "#loader").style.visibility = "visible";
+            "#loader").style.visibility = "visible";
     } else {
         document.querySelector(
-          "#loader").style.display = "none";
+            "#loader").style.display = "none";
         document.querySelector(
-          "body").style.visibility = "visible";
+            "body").style.visibility = "visible";
     }
 };
 
@@ -76,8 +76,19 @@ document.onreadystatechange = function() {
 // video show or hide
 function openForm() {
     document.getElementById("showVideo").style.display = "block";
-  }
-  
-  function closeForm() {
+}
+
+function closeForm() {
     document.getElementById("myForm").style.display = "none";
-  }
+}
+
+
+// When the user scrolls the page, execute myFunction 
+// window.onscroll = function () { myScrollIndkitor() };
+
+// function myScrollIndkitor() {
+//     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+//     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//     var scrolled = (winScroll / height) * 100;
+//     document.getElementById("myBar").style.width = scrolled + "%";
+// }
