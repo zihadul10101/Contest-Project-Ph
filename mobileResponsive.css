@@ -1,25 +1,30 @@
 @media (max-width: 480px) {
-  
-    
-    .responsives ul   {
-        display:inline;
+
+
+    .responsives ul {
+        display: inline;
         width: 100%;
         margin-left: 208px;
         margin-top: 60px;
-        
+
     }
-    .responsives ul  li {
-       text-align: center;
+
+    .responsives ul li {
+        text-align: center;
     }
-    .responsives .dropdown{
-     
-       display: flex;
-       justify-content:end;
-       align-items: center;
-     
+
+    .responsives .dropdown {
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
     }
-   
-   
+
+    .responsives .dropdown-toggle-content {
+        top: 309x;
+        left: -179px;
+    }
 
 
     .hero,
@@ -30,10 +35,11 @@
     .testimonial,
     .team,
     .contact,
-    .footer{
+    .footer {
 
         flex-direction: column;
     }
+
     .logo {
         text-align: center;
         font-size: 30px;
